@@ -1,17 +1,17 @@
 // import java.util.*;  
+
 public class rough {  
+    public static int GCD(int n1, int n2){
+        return n2 == 0? n1 : GCD(n2, n1%n2);
+      }
 
 public static void main(String[] args) {  
-    int arr[] = {2, 2, 1, 3, 2};
-    for(int i = 0 ; i<arr.length; i++){
-        int sum = 0;
-        int j = i;
-        while(j<i+2 && j<arr.length){
-            sum += arr[j];
-            j++;
-        }
-        System.out.println(sum);
-    }
+    System.out.println((int)Math.pow(54, 124)%17);
+    
+    
+
+    
+    
 
     
 }  
