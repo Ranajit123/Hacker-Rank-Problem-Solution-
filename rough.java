@@ -6,7 +6,7 @@ public class rough {
       }
 
 public static void main(String[] args) {  
-    System.out.println((int)Math.pow(54, 124)%17);
+    System.out.println(7/2);
     
     
 
